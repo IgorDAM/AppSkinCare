@@ -1,0 +1,356 @@
+[
+  {
+    "id": "retinol",
+    "nombre": "Retinol y derivados (vitamina A)",
+    "inci": ["Retinol", "Retinal", "Retinaldehyde", "Retinyl Palmitate", "Retinyl Acetate", "Retinyl Linoleate", "Retinyl Propionate"],
+    "categoria": "activo",
+    "resumen": "Vitamina A en cosmética. Se vende como «antiedad» y para los granos.",
+    "porQue": "Es un activo potente que irrita y no tiene función «antiedad» a tu edad.",
+    "porQue13a14": "A tu edad no hace falta: no tienes arrugas que tratar y irrita (enrojecimiento, descamación). Si tienes acné, hay opciones mejor estudiadas, como el adapaleno con indicación médica.",
+    "porQue15a18": "Solo tiene sentido si tienes acné, y para eso hay opciones mejor estudiadas, como el adapaleno. Si lo usas, que sea con consejo médico y empezando muy despacio.",
+    "detalle": "Sin ensayos cosméticos en niños. Reglamento (UE) 2024/996: máximo 0,3 % de equivalentes de retinol (RE) en la mayoría de cosméticos y 0,05 % RE en loción corporal; la etiqueta debe decir «Contiene vitamina A. Tenga en cuenta su ingesta diaria antes de usar». Plazos: comercialización desde el 1 nov 2025 y retirada del mercado el 1 may 2027. No combinar al inicio con AHA/BHA ni con peróxido de benzoílo. Los retinoides no se usan en el embarazo: si puedes estar embarazada, habla antes con tu médico/a.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "precaucion",
+    "irritante": true,
+    "grupo": "retinoide",
+    "reglas": [
+      { "si": ["atopia"], "nivel": "evitar", "porQue": "El eccema empeora con los retinoides: mejor no usarlos." }
+    ],
+    "limites": [
+      { "masDe": 0.3, "nivel": "evitar", "porQue": "Más del 0,3 % de retinol es más de lo que permite la UE en cosméticos." }
+    ],
+    "notaConcentracion": "En la UE, un cosmético con retinol no puede pasar del 0,3 % (0,05 % en cremas corporales).",
+    "fuentes": ["ue-2024-996", "aap-teen-skincare", "aedv-gedet-2024", "jdd-sephora-kids-2025"]
+  },
+  {
+    "id": "adapaleno",
+    "nombre": "Adapaleno",
+    "inci": ["Adapalene"],
+    "categoria": "medicamento",
+    "resumen": "Un retinoide para el acné. Es un medicamento.",
+    "porQue": "Es de lo mejor estudiado para el acné a tu edad (las guías de la AAD lo recomiendan desde los 9 años). Pero es un medicamento: úsalo con indicación de un médico/a, y empieza un día sí y otro no, porque al principio irrita.",
+    "detalle": "Guía de acné de la AAD 2024: recomendación fuerte (evidencia moderada) para personas desde los 9 años. Irritación inicial frecuente. Los retinoides no se usan en el embarazo: si puedes estar embarazada, habla antes con tu médico/a.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "irritante": true,
+    "grupo": "retinoide",
+    "medicamento": true,
+    "ayuda": ["acne"],
+    "fuentes": ["aad-acne-2024"]
+  },
+  {
+    "id": "tretinoina",
+    "nombre": "Tretinoína",
+    "inci": ["Tretinoin"],
+    "categoria": "medicamento",
+    "resumen": "Un retinoide de receta.",
+    "porQue": "Es un medicamento que solo se usa con receta. Hay estudios en adolescentes con acné, pero irrita y se estropea con la luz.",
+    "detalle": "Loción al 0,05 % evaluada en personas de hasta 13 años con acné (N=154; Pediatric Dermatology, 2019). Fotolábil. Irritación frecuente. Los retinoides no se usan en el embarazo: si puedes estar embarazada, habla antes con tu médico/a.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "irritante": true,
+    "grupo": "retinoide",
+    "medicamento": true,
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "tazaroteno",
+    "nombre": "Tazaroteno y trifaroteno",
+    "inci": ["Tazarotene", "Trifarotene"],
+    "categoria": "medicamento",
+    "resumen": "Retinoides de receta, más fuertes.",
+    "porQue": "Son medicamentos más irritantes que otros retinoides y solo se usan con receta. El tazaroteno puede dañar un embarazo: tu médico/a te lo explicará al recetártelo.",
+    "detalle": "Retinoides de tercera y cuarta generación; tazaroteno teratógeno (hay que hablar de anticoncepción cuando procede).",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "irritante": true,
+    "grupo": "retinoide",
+    "medicamento": true,
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "peroxido-benzoilo",
+    "nombre": "Peróxido de benzoílo",
+    "inci": ["Benzoyl Peroxide"],
+    "categoria": "activo",
+    "resumen": "El clásico contra los granos: mata las bacterias que los inflaman y no crea resistencias.",
+    "porQue": "Está en las guías de acné para tu edad y 2,5-5 % es suficiente para empezar. Puede resecar y escocer al principio: empieza un día sí y otro no.",
+    "detalle": "Guía de acné de la AAD 2024: recomendación fuerte. Se vende sin receta del 2,5 al 10 %. Decolora toallas, almohadas y ropa. Alerta de 2024: se ha detectado benceno como producto de degradación en algunos productos con peróxido de benzoílo; la recomendación provisional es guardarlos en un sitio fresco y no al sol, y la evidencia sigue evolucionando.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "irritante": true,
+    "grupo": "peroxido",
+    "ayuda": ["acne"],
+    "limites": [
+      { "masDe": 5, "nivel": "precaucion", "tramo": "t1", "porQue": "A tu edad se recomienda empezar con un 2,5-5 %. Más concentración irrita más y no cura más rápido." },
+      { "masDe": 10, "nivel": "evitar", "porQue": "El 10 % es el máximo de los productos sin receta." }
+    ],
+    "notaConcentracion": "Para empezar, mejor un 2,5 % o un 5 %.",
+    "fuentes": ["aad-acne-2024"]
+  },
+  {
+    "id": "acido-salicilico",
+    "nombre": "Ácido salicílico (BHA)",
+    "inci": ["Salicylic Acid", "BHA"],
+    "categoria": "activo",
+    "resumen": "Un exfoliante que entra en el poro. Típico de limpiadores y tratamientos anti-granos.",
+    "porQue": "Útil para el acné, pero puede irritar y no conviene mezclarlo con otros ácidos o retinoides.",
+    "porQue13a14": "A los 13-14 años mejor solo en limpiadores (que se aclaran) o en una zona pequeña, no por toda la cara ni por el cuerpo.",
+    "porQue15a18": "Hasta un 2 % es una opción razonable para el acné. No lo mezcles con otros ácidos ni con retinoides.",
+    "detalle": "Guía de acné AAD 2024: recomendación condicional, evidencia baja. UE: máximo 2 % en cosméticos (3 % en productos capilares que se aclaran); prohibido en cualquier producto para menores de 3 años (Reglamento 2019/1966); el comité SCCS señaló dudas de seguridad para 3-10 años. Riesgo de salicilismo en superficies grandes o piel rota.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "ok",
+    "irritante": true,
+    "grupo": "bha",
+    "ayuda": ["acne", "grasa"],
+    "reglas": [
+      { "si": ["atopia"], "nivel": "evitar", "porQue": "El eccema empeora con los ácidos exfoliantes: mejor no usarlo." }
+    ],
+    "limites": [
+      { "masDe": 2, "nivel": "evitar", "porQue": "En cosmética la UE permite hasta un 2 % (3 % en productos capilares que se aclaran). Más es de uso médico." }
+    ],
+    "notaConcentracion": "En cosmética, la UE permite hasta un 2 %.",
+    "fuentes": ["aad-acne-2024", "ue-2019-1966", "sccs-salicilico"]
+  },
+  {
+    "id": "aha",
+    "nombre": "Ácidos AHA (glicólico, láctico, mandélico)",
+    "inci": ["Glycolic Acid", "Lactic Acid", "Mandelic Acid"],
+    "categoria": "activo",
+    "resumen": "Ácidos exfoliantes que «despegan» la capa más superficial de la piel.",
+    "porQue": "Irritan y sensibilizan la piel al sol.",
+    "porQue13a14": "A tu edad no tienen utilidad: no hay estudios y irritan. El glicólico es el que más penetra.",
+    "porQue15a18": "Si los usas, mejor los suaves (láctico o mandélico), con protector solar cada día, y sin mezclarlos con retinoides ni con otros ácidos.",
+    "detalle": "Sin datos pediátricos cosméticos. El ácido láctico también se usa a veces solo para ajustar el pH del producto; en ese caso la cantidad es mínima y casi no exfolia. Por eso, cuanto más abajo en la lista, menos importa.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "precaucion",
+    "irritante": true,
+    "grupo": "aha",
+    "reglas": [
+      { "si": ["atopia"], "nivel": "evitar", "porQue": "El eccema empeora con los AHA: mejor no usarlos." }
+    ],
+    "limites": [
+      { "masDe": 10, "nivel": "evitar", "porQue": "Más de un 10 % de AHA es demasiado fuerte para dejar puesto." }
+    ],
+    "fuentes": ["informe", "aap-teen-skincare"]
+  },
+  {
+    "id": "pha",
+    "nombre": "PHA (gluconolactona)",
+    "inci": ["Gluconolactone", "Lactobionic Acid"],
+    "categoria": "activo",
+    "resumen": "El «ácido suave»: exfolia menos y también hidrata.",
+    "porQue": "Es el más tolerable de los ácidos, pero no hay estudios en menores y tu piel no lo necesita.",
+    "detalle": "Sin evidencia pediátrica. Más tolerable que los AHA y BHA.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "acido-azelaico",
+    "nombre": "Ácido azelaico",
+    "inci": ["Azelaic Acid"],
+    "categoria": "activo",
+    "resumen": "Calma la inflamación, ayuda con los granos y con las marcas que dejan.",
+    "porQue": "Está en las guías de acné y es útil para las manchas tras los granos, sobre todo en pieles morenas u oscuras. Puede escocer un poco al principio.",
+    "detalle": "Antiinflamatorio, antimicrobiano y despigmentante. En cosmética se usa hasta el 10 %; del 15 al 20 % es medicamento. Útil para la hiperpigmentación postinflamatoria en fototipos IV-VI.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "ayuda": ["acne", "manchas"],
+    "limites": [
+      { "masDe": 10, "nivel": "precaucion", "porQue": "El 15-20 % es un medicamento: se usa con indicación médica." }
+    ],
+    "fuentes": ["aad-acne-2024", "informe"]
+  },
+  {
+    "id": "niacinamida",
+    "nombre": "Niacinamida (vitamina B3)",
+    "inci": ["Niacinamide", "Nicotinamide"],
+    "categoria": "activo",
+    "resumen": "Ayuda a regular un poco el brillo y calma la piel.",
+    "porQue": "Se tolera bien con un 2-5 %. No necesitas más: con un 10 % puede irritar.",
+    "detalle": "Refuerza la barrera, regula el sebo y es antiinflamatoria. A concentraciones altas puede dar enrojecimiento por restos de ácido nicotínico.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "ayuda": ["grasa", "acne"],
+    "limites": [
+      { "masDe": 5, "nivel": "precaucion", "porQue": "Con un 10 % de niacinamida puede salir rojez e irritación. Con un 2-5 % ya hace su efecto." }
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "vitamina-c-acido",
+    "nombre": "Vitamina C (ácido ascórbico)",
+    "inci": ["Ascorbic Acid", "L-Ascorbic Acid"],
+    "categoria": "activo",
+    "resumen": "Antioxidante «iluminador».",
+    "porQue": "Las versiones puras (10-20 %) son muy ácidas e irritan.",
+    "porQue13a14": "A tu edad no hay estudios y las versiones puras son muy ácidas e irritan.",
+    "porQue15a18": "Solo tendría sentido para las marcas de los granos, y irrita por su pH bajo. Pregúntalo antes a un profesional.",
+    "detalle": "Sin evidencia pediátrica (revisión JDD 2025). Ácido ascórbico al 10-20 % con pH inferior a 3,5. Se oxida con facilidad.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "precaucion",
+    "irritante": true,
+    "grupo": "vitamina-c",
+    "fuentes": ["jdd-sephora-kids-2025"]
+  },
+  {
+    "id": "vitamina-c-derivados",
+    "nombre": "Derivados de la vitamina C",
+    "inci": ["Sodium Ascorbyl Phosphate", "Magnesium Ascorbyl Phosphate", "Ascorbyl Glucoside", "Ascorbyl Palmitate", "Tetrahexyldecyl Ascorbate", "Ethyl Ascorbic Acid"],
+    "categoria": "activo",
+    "resumen": "Versiones de la vitamina C más estables que el ácido ascórbico puro.",
+    "porQue": "No tengo datos específicos de estos derivados en menores. Suelen ser menos ácidos que el ácido ascórbico puro, pero no está estudiado a tu edad.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "vitamina-e",
+    "nombre": "Vitamina E (tocoferol)",
+    "inci": ["Tocopherol", "Tocopheryl Acetate"],
+    "categoria": "antioxidante",
+    "resumen": "Antioxidante habitual en cremas.",
+    "porQue": "Se tolera bien. Rara vez da dermatitis de contacto.",
+    "detalle": "Como componente de cremas y protectores no da problemas relevantes; ocasionalmente dermatitis de contacto.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "peptidos",
+    "nombre": "Péptidos «antiedad»",
+    "inci": ["Palmitoyl Tripeptide-1", "Palmitoyl Tetrapeptide-7", "Acetyl Hexapeptide-8", "Copper Tripeptide-1"],
+    "patrones": ["peptide"],
+    "categoria": "activo",
+    "resumen": "Cadenas de aminoácidos que se venden como «antiarrugas».",
+    "porQue": "A tu edad no tienes arrugas que tratar, así que no hay beneficio demostrado. No es que sean peligrosos: es dinero que no te compensa.",
+    "detalle": "Sin indicación ni evidencia en población pediátrica. Coste sin beneficio.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "precaucion",
+    "fuentes": ["informe", "jdd-sephora-kids-2025"]
+  },
+  {
+    "id": "bakuchiol",
+    "nombre": "Bakuchiol",
+    "inci": ["Bakuchiol"],
+    "categoria": "activo",
+    "resumen": "Se vende como alternativa «natural» al retinol.",
+    "porQue": "No hay estudios en menores y se han descrito alergias de contacto.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "precaucion",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "acido-tranexamico",
+    "nombre": "Ácido tranexámico",
+    "inci": ["Tranexamic Acid"],
+    "categoria": "activo",
+    "resumen": "Un despigmentante que se usa para manchas.",
+    "porQue": "No hay estudios en menores y los datos de seguridad a largo plazo son escasos. Solo con supervisión médica.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "precaucion",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "hidroquinona",
+    "nombre": "Hidroquinona",
+    "inci": ["Hydroquinone"],
+    "categoria": "despigmentante",
+    "resumen": "Un despigmentante potente.",
+    "porQue": "Está prohibida en cosméticos en la UE y en EE. UU. no se vende sin receta desde 2020. Solo se usa con receta. Los productos «blanqueantes» ilegales pueden llevarla (o mercurio).",
+    "detalle": "No indicada en niños. Puede provocar ocronosis exógena (manchas oscuras) e irritación. Los productos ilegales pueden contener mercurio.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "evitar",
+    "prohibidoUe": true,
+    "fuentes": ["fda-hidroquinona", "informe"]
+  },
+  {
+    "id": "mercurio",
+    "nombre": "Mercurio y sales de mercurio",
+    "inci": ["Mercury", "Calomel", "Mercurous Chloride", "Ammoniated Mercury", "Mercuric Chloride"],
+    "categoria": "despigmentante",
+    "resumen": "Un metal tóxico que aparece en cremas blanqueantes ilegales.",
+    "porQue": "Es tóxico y está prohibido en cosméticos. Si lo ves en la lista, no uses el producto.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "evitar",
+    "prohibidoUe": true,
+    "fuentes": ["fda-hidroquinona", "informe"]
+  },
+  {
+    "id": "arbutina",
+    "nombre": "Arbutina",
+    "inci": ["Arbutin"],
+    "categoria": "despigmentante",
+    "resumen": "Despigmentante de origen vegetal.",
+    "porQue": "No hay estudios en menores y puede liberar hidroquinona.",
+    "detalle": "Reglamento (UE) 2024/996: máximo 7 % en productos para la cara.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "precaucion",
+    "limites": [
+      { "masDe": 7, "nivel": "evitar", "porQue": "La UE permite como máximo un 7 % de arbutina en cosméticos de cara." }
+    ],
+    "fuentes": ["ue-2024-996"]
+  },
+  {
+    "id": "alfa-arbutina",
+    "nombre": "Alfa-arbutina",
+    "inci": ["Alpha-Arbutin"],
+    "categoria": "despigmentante",
+    "resumen": "Despigmentante, primo de la arbutina.",
+    "porQue": "No hay estudios en menores y puede liberar hidroquinona.",
+    "detalle": "Reglamento (UE) 2024/996: máximo 2 % en cara y 0,5 % en cuerpo.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "precaucion",
+    "limites": [
+      { "masDe": 2, "nivel": "evitar", "porQue": "La UE permite como máximo un 2 % de alfa-arbutina en cosméticos de cara." }
+    ],
+    "fuentes": ["ue-2024-996"]
+  },
+  {
+    "id": "acido-kojico",
+    "nombre": "Ácido kójico",
+    "inci": ["Kojic Acid"],
+    "categoria": "despigmentante",
+    "resumen": "Despigmentante derivado de hongos.",
+    "porQue": "No hay estudios en menores y es un sensibilizante conocido.",
+    "detalle": "Reglamento (UE) 2024/996: máximo 1 % en cara y manos.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "precaucion",
+    "limites": [
+      { "masDe": 1, "nivel": "evitar", "porQue": "La UE permite como máximo un 1 % de ácido kójico en cosméticos de cara y manos." }
+    ],
+    "fuentes": ["ue-2024-996"]
+  },
+  {
+    "id": "antibioticos-topicos",
+    "nombre": "Antibióticos para los granos",
+    "inci": ["Clindamycin", "Clindamycin Phosphate", "Erythromycin"],
+    "categoria": "medicamento",
+    "resumen": "Antibióticos que se aplican sobre la piel.",
+    "porQue": "Solo con receta, y siempre junto con peróxido de benzoílo para evitar que las bacterias se hagan resistentes.",
+    "detalle": "Guías de acné: el antibiótico tópico debe usarse siempre combinado con peróxido de benzoílo.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "medicamento": true,
+    "fuentes": ["aad-acne-2024"]
+  },
+  {
+    "id": "exfoliantes-fisicos",
+    "nombre": "Exfoliantes con partículas",
+    "inci": ["Prunus Armeniaca Seed Powder", "Juglans Regia Shell Powder", "Prunus Amygdalus Dulcis Shell Powder", "Cocos Nucifera Shell Powder", "Pumice"],
+    "categoria": "exfoliante",
+    "resumen": "Partículas que se frotan sobre la piel para «rascar» la capa de fuera.",
+    "porQue": "Frotar con partículas irrita, puede empeorar los granos y deja marcas.",
+    "detalle": "Los exfoliantes físicos figuran entre los factores que empeoran la dermatitis irritativa y el acné (exfoliación agresiva y manipulación).",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "irritante": true,
+    "grupo": "exfoliante-fisico",
+    "reglas": [
+      { "si": ["acne"], "nivel": "evitar", "porQue": "Con granos, frotar con partículas los empeora y deja marcas." },
+      { "si": ["sensible"], "nivel": "evitar", "porQue": "Con piel sensible o con eccema, las partículas irritan." }
+    ],
+    "fuentes": ["informe"]
+  }
+]

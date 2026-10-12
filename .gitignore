@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+publish/
+TestResults/
+.env
+*.pubxml

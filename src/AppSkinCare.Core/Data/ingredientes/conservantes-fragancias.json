@@ -1,0 +1,173 @@
+[
+  {
+    "id": "perfume",
+    "nombre": "Perfume (parfum / fragrance)",
+    "inci": ["Parfum", "Fragrance", "Aroma", "Perfume"],
+    "categoria": "fragancia",
+    "resumen": "Una mezcla de aromas que puede incluir decenas de ingredientes que no se detallan.",
+    "porQue": "Es de lo que más alergias de contacto da. Si tienes la piel sensible o eccema, mejor «sin perfume» (no «sin olor», que puede llevar enmascarantes).",
+    "detalle": "Reglamento (UE) 2023/1545: a los 24 alérgenos de fragancia ya listados se suman 56 más (unos 80 en total), que hay que declarar por separado si pasan del 0,001 % (productos que se dejan puestos) o del 0,01 % (que se aclaran). Obligatorio en productos nuevos desde el 31 jul 2026 y en todos desde el 31 jul 2028.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "reglas": [
+      { "si": ["atopia"], "nivel": "evitar", "porQue": "Con eccema, mejor evitar el perfume: es de lo que más lo empeora." }
+    ],
+    "fuentes": ["ue-2023-1545", "informe"]
+  },
+  {
+    "id": "alergenos-fragancia",
+    "nombre": "Alérgenos de fragancia",
+    "inci": [
+      "Linalool", "Limonene", "Citronellol", "Geraniol", "Citral", "Eugenol", "Isoeugenol", "Coumarin", "Farnesol",
+      "Hydroxycitronellal", "Benzyl Salicylate", "Benzyl Benzoate", "Benzyl Cinnamate", "Benzyl Alcohol",
+      "Cinnamal", "Cinnamyl Alcohol", "Amyl Cinnamal", "Amylcinnamyl Alcohol", "Hexyl Cinnamal", "Anise Alcohol",
+      "Alpha-Isomethyl Ionone", "Methyl 2-Octynoate", "Evernia Prunastri Extract", "Evernia Furfuracea Extract"
+    ],
+    "categoria": "fragancia",
+    "resumen": "Sustancias aromáticas que la UE obliga a nombrar porque pueden dar alergia.",
+    "porQue": "Que salgan en la lista no es un «no» automático, pero si tienes eccema o alergias, mejor evitarlos.",
+    "detalle": "Son los alérgenos de fragancia de declaración obligatoria. También aparecen de forma natural en los aceites esenciales. El alcohol bencílico se usa además como conservante.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "reglas": [
+      { "si": ["atopia"], "nivel": "evitar", "porQue": "Con eccema o alergias, mejor evitar los alérgenos de fragancia." }
+    ],
+    "fuentes": ["ue-2023-1545"]
+  },
+  {
+    "id": "aceites-esenciales",
+    "nombre": "Aceites esenciales",
+    "inci": ["Lavandula Angustifolia Oil", "Melaleuca Alternifolia Leaf Oil", "Mentha Piperita Oil", "Citrus Limon Peel Oil", "Eucalyptus Globulus Leaf Oil", "Tea Tree Oil"],
+    "patrones": ["^(lavandula|melaleuca|mentha|eucalyptus|rosmarinus|citrus|cymbopogon|cananga|pelargonium|salvia|ocimum|thymus|origanum|cinnamomum|syzygium|boswellia|santalum|jasminum|juniperus|cedrus|abies|cupressus|zingiber|illicium|pogostemon)\\b.*\\boil\\b"],
+    "categoria": "fragancia",
+    "resumen": "Aceites muy concentrados de plantas (lavanda, árbol del té, cítricos, menta…).",
+    "porQue": "Huelen muy bien, pero contienen alérgenos (linalol, limoneno…). Las «recetas naturales» con aceite esencial son una fuente típica de irritaciones.",
+    "detalle": "Los cítricos son además fototóxicos: pueden manchar la piel si te da el sol después. Mentol y alcanfor pueden ser neurotóxicos en lactantes.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "reglas": [
+      { "si": ["atopia"], "nivel": "evitar", "porQue": "Con eccema, los aceites esenciales empeoran la piel: mejor evitarlos." }
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "alcohol-denat",
+    "nombre": "Alcohol desnaturalizado (alcohol denat.)",
+    "inci": ["Alcohol Denat.", "Alcohol", "SD Alcohol 40-B", "SD Alcohol 40", "Ethanol"],
+    "categoria": "disolvente",
+    "resumen": "El alcohol que usan muchos tónicos y geles anti-granos para que se seque rápido.",
+    "porQue": "En poca cantidad no pasa nada. Cuando está entre los primeros ingredientes, reseca y deja la piel más irritable.",
+    "detalle": "Secante e irritante cuando ocupa los primeros puestos de la lista. No es lo mismo que el alcohol cetílico o cetearílico, que son ceras grasas suaves.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "posAltaHasta": 5,
+    "reglas": [
+      { "si": ["posAlta"], "nivel": "precaucion", "porQue": "El alcohol está entre los primeros ingredientes: habrá bastante y puede resecar o irritar." },
+      { "si": ["posAlta", "sensible"], "nivel": "evitar", "porQue": "Con la piel sensible o con eccema, un producto con mucho alcohol irrita: mejor evitarlo." }
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "parabenos-permitidos",
+    "nombre": "Metilparabeno y etilparabeno",
+    "inci": ["Methylparaben", "Ethylparaben"],
+    "categoria": "conservante",
+    "resumen": "Conservantes muy usados y muy estudiados.",
+    "porQue": "Están permitidos y evaluados. «Sin parabenos» no significa más seguro.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "parabenos-limitados",
+    "nombre": "Propilparabeno y butilparabeno",
+    "inci": ["Propylparaben", "Butylparaben"],
+    "categoria": "conservante",
+    "resumen": "Conservantes permitidos, pero con límite.",
+    "porQue": "Están permitidos con un máximo del 0,14 %. No es alarmante, pero hay opciones sin ellos.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "parabenos-prohibidos",
+    "nombre": "Parabenos prohibidos en la UE",
+    "inci": ["Isopropylparaben", "Isobutylparaben", "Phenylparaben", "Benzylparaben", "Pentylparaben"],
+    "categoria": "conservante",
+    "resumen": "Parabenos que ya no se pueden usar en cosméticos en la UE.",
+    "porQue": "Si aparecen, es un producto fuera de norma o importado: no lo uses.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "evitar",
+    "prohibidoUe": true,
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "fenoxietanol",
+    "nombre": "Fenoxietanol",
+    "inci": ["Phenoxyethanol"],
+    "categoria": "conservante",
+    "resumen": "Un conservante muy habitual.",
+    "porQue": "El comité científico europeo (SCCS) lo considera seguro al 1 % para todas las edades.",
+    "detalle": "SCCS 2016: seguro hasta el 1 % para todas las edades.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "limites": [
+      { "masDe": 1, "nivel": "precaucion", "porQue": "El 1 % es el máximo que el comité científico europeo considera seguro." }
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "isotiazolinonas",
+    "nombre": "Isotiazolinonas (MI y MCI/MI)",
+    "inci": ["Methylisothiazolinone", "Methylchloroisothiazolinone"],
+    "categoria": "conservante",
+    "resumen": "Conservantes que provocaron una epidemia de alergias de contacto.",
+    "porQue": "Mejor evitarlos. En la UE la MI está prohibida en productos que se dejan puestos desde 2017.",
+    "detalle": "Reglamento (UE) 2016/1198: MI prohibida en productos sin aclarado desde el 12 feb 2017; límites más bajos en productos con aclarado. Prevalencia de alergia de contacto en Europa: MI 2,9 %. Aún aparece sin declarar en pinturas escolares.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "evitar",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "liberadores-formaldehido",
+    "nombre": "Liberadores de formaldehído",
+    "inci": ["DMDM Hydantoin", "Imidazolidinyl Urea", "Diazolidinyl Urea", "Quaternium-15", "Bronopol", "2-Bromo-2-Nitropropane-1,3-Diol"],
+    "categoria": "conservante",
+    "resumen": "Conservantes que van soltando pequeñas cantidades de formaldehído.",
+    "porQue": "Son causa conocida de alergias de contacto. Mejor evitarlos.",
+    "detalle": "En la UE hay que avisar en la etiqueta si el producto libera más de 0,001 % de formaldehído.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "evitar",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "triclosan",
+    "nombre": "Triclosán y triclocarbán",
+    "inci": ["Triclosan", "Triclocarban"],
+    "categoria": "conservante",
+    "resumen": "Antibacterianos que antes se usaban mucho en jabones y pastas.",
+    "porQue": "Están restringidos en la UE por sospecha de disrupción endocrina. Mejor evitarlos.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "evitar",
+    "fuentes": ["ue-2024-996"]
+  },
+  {
+    "id": "botanicos-sensibilizantes",
+    "nombre": "Extractos «naturales» que sensibilizan (propóleo, caléndula, árnica, manzanilla…)",
+    "inci": [
+      "Propolis", "Propolis Extract", "Calendula Officinalis Flower Extract", "Calendula Officinalis Extract",
+      "Arnica Montana Flower Extract", "Arnica Montana Extract", "Chamomilla Recutita Flower Extract",
+      "Chamomilla Recutita Extract", "Matricaria Recutita Flower Extract", "Myroxylon Pereirae Resin"
+    ],
+    "categoria": "botanico",
+    "resumen": "Extractos de plantas que se venden como «suaves».",
+    "porQue": "Natural no significa suave: son plantas que sensibilizan con frecuencia, sobre todo en piel con eccema.",
+    "detalle": "Propóleo, caléndula, árnica, extractos de compuestas y Myroxylon pereirae (bálsamo del Perú) figuran entre los alérgenos de contacto frecuentes.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "reglas": [
+      { "si": ["atopia"], "nivel": "evitar", "porQue": "Con eccema, estos extractos de plantas sensibilizan con frecuencia: mejor evitarlos." }
+    ],
+    "fuentes": ["informe"]
+  }
+]

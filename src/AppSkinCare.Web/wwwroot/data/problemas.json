@@ -1,0 +1,172 @@
+[
+  {
+    "id": "granos",
+    "titulo": "Granos y puntos negros",
+    "gancho": "Es lo más común a tu edad. No es por estar sucio.",
+    "queEs": "El acné aparece cuando los poros se tapan y se inflaman. Las hormonas de la adolescencia lo empujan. Lavarse más no lo arregla.",
+    "ayuda": [
+      "Limpiar la cara 2 veces al día con un limpiador suave, sin frotar.",
+      "Hidratar con una crema sin aceites pesados: ayuda a que la piel aguante mejor los tratamientos.",
+      "Usar protector solar por la mañana, sobre todo si usas algún tratamiento.",
+      "Si quieres probar un tratamiento sin receta, empieza con uno solo y poco a poco (días alternos al principio)."
+    ],
+    "evitar": [
+      "Reventar o rascar los granos: deja marcas y puede infectarse.",
+      "Frotar fuerte, usar estropajos o lavarse la cara más de 2 veces al día.",
+      "Mezclar varios productos fuertes a la vez (por ejemplo, varios con ácidos y retinoides).",
+      "Tratamientos «caseros» como pasta de dientes, limón o bicarbonato."
+    ],
+    "medicoSi": [
+      "Los granos son grandes, duelen o dejan cicatriz.",
+      "Llevas 2–3 meses con cuidados suaves y no mejora.",
+      "Te afecta en cómo te sientes o no quieres salir de casa por ello."
+    ],
+    "fuentes": ["aad-acne-2024", "aap-teen-skincare"]
+  },
+  {
+    "id": "marcas",
+    "titulo": "Marcas y manchas después de un grano",
+    "gancho": "Los granos se van, pero la marca se queda un tiempo.",
+    "queEs": "Después de una inflamación, la piel puede quedarse más oscura o rojiza en esa zona. Suele ir bajando con los meses.",
+    "ayuda": [
+      "Protector solar todos los días: el sol oscurece las marcas y las hace durar más.",
+      "No tocar ni exprimir los granos.",
+      "Paciencia: pueden tardar varios meses en bajar.",
+      "Si quieres usar algo, pregunta antes a un dermatólogo/a; hay opciones suaves."
+    ],
+    "evitar": [
+      "Productos «blanqueantes» sin control médico. Algunos contienen sustancias que no deben usarse sin supervisión.",
+      "Exfoliar con fuerza: irrita y puede oscurecer más la marca."
+    ],
+    "medicoSi": [
+      "La marca crece, cambia de forma o color, o no estaba ligada a un grano.",
+      "Hay cicatrices con relieve (hundidas o abultadas)."
+    ],
+    "fuentes": ["aad-acne-2024", "fda-hidroquinona"]
+  },
+  {
+    "id": "grasa",
+    "titulo": "Cara brillante o grasa",
+    "gancho": "El brillo en la zona T es normal en la adolescencia.",
+    "queEs": "Las glándulas de la piel producen más grasa durante la pubertad. Es normal y suele estabilizarse con los años.",
+    "ayuda": [
+      "Limpiador suave, 2 veces al día como máximo.",
+      "Hidratante ligera («gel» o «fluido»). Una piel grasa también necesita hidratación.",
+      "Protector solar de textura ligera."
+    ],
+    "evitar": [
+      "Lavar de más o con productos que dejan la piel «chirriando»: la piel responde produciendo más grasa y se irrita.",
+      "Alcoholes muy altos en la lista, si notas que te escuecen o resecan."
+    ],
+    "medicoSi": [
+      "El brillo viene con muchos granos que no mejoran con cuidados suaves."
+    ],
+    "fuentes": ["aap-teen-skincare", "informe"]
+  },
+  {
+    "id": "seca",
+    "titulo": "Piel seca o con tirantez",
+    "gancho": "Cuando la cara tira o se descama después de lavarla.",
+    "queEs": "La piel seca pierde agua con facilidad. Con el frío, la calefacción o limpiadores fuertes empeora.",
+    "ayuda": [
+      "Limpiador suave y sin demasiada espuma. Agua tibia, no muy caliente.",
+      "Crema hidratante en cuanto te secas la cara, 1–2 veces al día.",
+      "Busca ingredientes como glicerina, ceramidas o pantenol (los puedes comprobar en «Revisar etiqueta»).",
+      "Protector solar de textura cremosa."
+    ],
+    "evitar": [
+      "Duchas muy calientes y largas.",
+      "Productos con mucho perfume o alcohol si te irritan.",
+      "Exfoliar a menudo."
+    ],
+    "medicoSi": [
+      "Hay grietas que sangran, picor intenso o placas rojas que no mejoran con crema."
+    ],
+    "fuentes": ["aap-teen-skincare", "informe"]
+  },
+  {
+    "id": "eccema",
+    "titulo": "Eccema o dermatitis atópica",
+    "gancho": "Placas secas que pican y a veces enrojecen.",
+    "queEs": "Es una condición de la piel que va y viene. Aquí solo hay consejos generales de cuidado diario: el tratamiento lo decide tu médico/a.",
+    "ayuda": [
+      "Hidratar a diario con una crema espesa y sin perfume, sobre todo después de la ducha.",
+      "Duchas cortas con agua tibia y limpiador sin jabón fuerte.",
+      "Ropa suave que no roce (el algodón suele tolerarse mejor).",
+      "Probar productos nuevos en una zona pequeña antes de usarlos en toda la cara."
+    ],
+    "evitar": [
+      "Perfumes y productos con muchos aromas.",
+      "Exfoliantes y ácidos fuertes sin hablarlo antes con tu médico/a.",
+      "Rascarse: empeora la irritación."
+    ],
+    "medicoSi": [
+      "El picor no te deja dormir.",
+      "Hay costras, supuración o dolor (puede haber infección).",
+      "Te han recetado algo: sigue sus indicaciones antes que cualquier consejo de esta web."
+    ],
+    "fuentes": ["aap-teen-skincare", "informe"]
+  },
+  {
+    "id": "sol",
+    "titulo": "Sol, quemaduras y protector solar",
+    "gancho": "Todas las pieles necesitan protegerse, también las más oscuras.",
+    "queEs": "El sol daña la piel aunque no te quemes. Ese daño se va acumulando con los años.",
+    "ayuda": [
+      "Protector solar de factor 30 o más cada mañana en cara, orejas y cuello.",
+      "Repetir cada 2 horas si estás al aire libre, y después de bañarte o sudar mucho.",
+      "Sombra, gorra y gafas de sol en las horas centrales del día.",
+      "Si te quemas con facilidad o pasas muchas horas fuera, elige factor 50."
+    ],
+    "evitar": [
+      "Cabinas de bronceado.",
+      "Ponerse poca cantidad: se necesita bastante más de lo que parece.",
+      "Pensar que un día nublado no hace falta."
+    ],
+    "medicoSi": [
+      "Quemadura con ampollas, fiebre o mucho dolor.",
+      "Un lunar que cambia, sangra o crece."
+    ],
+    "fuentes": ["aap-teen-skincare", "aad-acne-2024"]
+  },
+  {
+    "id": "afeitado",
+    "titulo": "Irritación al afeitarse",
+    "gancho": "Rojeces, picor o pelitos que se encarnan.",
+    "queEs": "Afeitarse puede irritar la piel y, en algunas personas, los pelos se vuelven a clavar al crecer.",
+    "ayuda": [
+      "Piel mojada y tibia antes de afeitarte, con una cuchilla limpia y afilada.",
+      "Afeitar en el sentido en que crece el pelo.",
+      "Después, una crema calmante sin perfume ni alcohol."
+    ],
+    "evitar": [
+      "Repasar muchas veces la misma zona.",
+      "Lociones con alcohol después del afeitado si te escuecen.",
+      "Compartir cuchillas."
+    ],
+    "medicoSi": [
+      "Aparecen bultos con pus o dolor, o se repite todo el tiempo."
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "irritacion",
+    "titulo": "Un producto me pica o me enrojece",
+    "gancho": "Probaste algo nuevo y ahora te escuece.",
+    "queEs": "Algunos productos irritan sin que sea una alergia (por ejemplo, si son muy fuertes o los mezclas). Otras veces sí hay alergia, por ejemplo a un perfume.",
+    "ayuda": [
+      "Deja de usar el producto nuevo y los fuertes que uses a la vez. Limpia suave e hidrata.",
+      "Apunta qué producto fue y revisa su lista de ingredientes en «Revisar etiqueta».",
+      "Cuando vuelvas a probar algo, hazlo de uno en uno y espera unos días entre uno y otro."
+    ],
+    "evitar": [
+      "Seguir usándolo «para que la piel se acostumbre» si te escuece más de 15 minutos o se hincha.",
+      "Añadir más productos para calmarlo."
+    ],
+    "medicoSi": [
+      "Se hincha la cara, los labios o los ojos, o te cuesta respirar: urgencias.",
+      "Hay ampollas, mucho dolor o no mejora en pocos días."
+    ],
+    "fuentes": ["aap-teen-skincare", "aedv-gedet-2024"]
+  }
+]

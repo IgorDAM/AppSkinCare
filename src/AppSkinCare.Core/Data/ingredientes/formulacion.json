@@ -1,0 +1,113 @@
+[
+  {
+    "id": "agua",
+    "nombre": "Agua",
+    "inci": ["Aqua", "Water", "Eau", "Aqua/Water/Eau"],
+    "categoria": "formulacion",
+    "resumen": "El disolvente de casi todas las cremas y geles.",
+    "porQue": "Sin problema.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "alcoholes-grasos",
+    "nombre": "Alcoholes grasos (cetílico, cetearílico, estearílico)",
+    "inci": ["Cetearyl Alcohol", "Cetyl Alcohol", "Stearyl Alcohol", "Behenyl Alcohol"],
+    "categoria": "formulacion",
+    "resumen": "Ceras suaves que dan cuerpo a las cremas.",
+    "porQue": "No tienen nada que ver con el alcohol que reseca: son grasas. Sin problema.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "emulsionantes",
+    "nombre": "Emulsionantes habituales",
+    "inci": ["Glyceryl Stearate", "Glyceryl Stearate Citrate", "PEG-100 Stearate", "Ceteareth-20", "Polysorbate 20", "Polysorbate 60", "Polysorbate 80", "Cetearyl Glucoside"],
+    "categoria": "formulacion",
+    "resumen": "Ayudan a que el agua y el aceite se mezclen en una crema.",
+    "porQue": "Ingredientes de formulación habituales. No tengo reglas especiales para ellos en esta base.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "espesantes",
+    "nombre": "Espesantes y gelificantes",
+    "inci": ["Xanthan Gum", "Carbomer", "Acrylates/C10-30 Alkyl Acrylate Crosspolymer", "Hydroxyethylcellulose", "Sodium Polyacrylate", "Cellulose Gum"],
+    "categoria": "formulacion",
+    "resumen": "Dan textura de gel o crema al producto.",
+    "porQue": "Ingredientes de formulación habituales. No tengo reglas especiales para ellos en esta base.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "ajuste-ph",
+    "nombre": "Reguladores de pH y sales",
+    "inci": ["Sodium Hydroxide", "Potassium Hydroxide", "Citric Acid", "Sodium Citrate", "Sodium Chloride"],
+    "categoria": "formulacion",
+    "resumen": "Ajustan la acidez del producto.",
+    "porQue": "Ingredientes de formulación habituales. No tengo reglas especiales para ellos en esta base.",
+    "detalle": "El ácido cítrico es técnicamente un AHA, pero en la mayoría de los productos se usa solo para ajustar el pH, en cantidades mínimas.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "quelantes",
+    "nombre": "Quelantes (EDTA)",
+    "inci": ["Disodium EDTA", "Tetrasodium EDTA"],
+    "categoria": "formulacion",
+    "resumen": "Ayudan a que el producto se conserve mejor.",
+    "porQue": "Ingredientes de formulación habituales. No tengo reglas especiales para ellos en esta base.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "glicoles",
+    "nombre": "Glicoles y humectantes de formulación",
+    "inci": ["Butylene Glycol", "Propylene Glycol", "Pentylene Glycol", "Propanediol", "Caprylyl Glycol", "1,2-Hexanediol", "Ethylhexylglycerin"],
+    "categoria": "formulacion",
+    "resumen": "Mejoran la textura y ayudan a conservar el producto.",
+    "porQue": "Ingredientes de formulación habituales. No tengo reglas especiales para ellos en esta base.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "conservantes-habituales",
+    "nombre": "Conservantes habituales (benzoato, sorbato…)",
+    "inci": ["Sodium Benzoate", "Potassium Sorbate", "Sorbic Acid", "Benzoic Acid", "Dehydroacetic Acid", "Sodium Dehydroacetate"],
+    "categoria": "conservante",
+    "resumen": "Evitan que el producto se llene de bacterias u hongos.",
+    "porQue": "Conservantes habituales. No tengo reglas especiales para ellos en esta base.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "emolientes-ligeros",
+    "nombre": "Emolientes ligeros",
+    "inci": ["Caprylic/Capric Triglyceride", "Squalane", "C12-15 Alkyl Benzoate", "Coco-Caprylate", "Dicaprylyl Carbonate"],
+    "categoria": "formulacion",
+    "resumen": "Dan suavidad y un tacto ligero.",
+    "porQue": "Ingredientes de formulación habituales. No tengo reglas especiales para ellos en esta base.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "colorantes-minerales",
+    "nombre": "Óxidos de hierro y micas (colorantes minerales)",
+    "inci": ["Iron Oxides", "CI 77491", "CI 77492", "CI 77499", "Mica", "CI 77019"],
+    "categoria": "formulacion",
+    "resumen": "Pigmentos minerales de maquillajes y cremas con color.",
+    "porQue": "Colorantes minerales habituales. No tengo reglas especiales para ellos en esta base.",
+    "nivel13a14": "neutro",
+    "nivel15a18": "neutro",
+    "fuentes": ["informe"]
+  }
+]

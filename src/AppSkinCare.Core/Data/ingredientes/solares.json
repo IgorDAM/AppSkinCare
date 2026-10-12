@@ -1,0 +1,102 @@
+[
+  {
+    "id": "oxido-zinc",
+    "nombre": "Óxido de zinc",
+    "inci": ["Zinc Oxide", "CI 77947"],
+    "categoria": "filtro-solar",
+    "resumen": "Filtro solar mineral: protege reflejando y absorbiendo la radiación.",
+    "porQue": "Muy seguro y bien tolerado; ideal si tu piel es sensible. Puede dejar un tono blanquecino.",
+    "detalle": "Filtro mineral propuesto por la FDA como seguro y eficaz. En la UE se autoriza en forma nano con condiciones, pero no en aerosoles que se puedan inhalar (SCCS).",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "dioxido-titanio",
+    "nombre": "Dióxido de titanio",
+    "inci": ["Titanium Dioxide", "CI 77891"],
+    "categoria": "filtro-solar",
+    "resumen": "Filtro solar mineral. También se usa como colorante blanco en muchos productos.",
+    "porQue": "Seguro y bien tolerado. Sin problema.",
+    "detalle": "Filtro mineral propuesto por la FDA como seguro y eficaz. En la UE se autoriza en forma nano con condiciones, pero no en aerosoles que se puedan inhalar (SCCS).",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "oxibenzona",
+    "nombre": "Oxibenzona (benzofenona-3)",
+    "inci": ["Benzophenone-3", "Oxybenzone"],
+    "categoria": "filtro-solar",
+    "resumen": "Un filtro solar químico muy extendido.",
+    "porQue": "Se absorbe a la sangre en cantidades que obligan a investigar más; no está demostrado que haga daño. Aun así, si tienes alternativa, mejor elige otro filtro. Y no es motivo para dejar de ponerte protector solar.",
+    "detalle": "Matta et al. (JAMA, 2020; 48 adultos): superó los 0,5 ng/mL en sangre tras una aplicación, el umbral que obliga a hacer más estudios; no demuestra daño. UE: máximo 6 % en cara, manos y labios y 2,2 % en cuerpo; debe etiquetarse. Es alérgeno y fotoalérgeno.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "fuentes": ["matta-jama-2020", "ue-2022-1176"]
+  },
+  {
+    "id": "octocrileno",
+    "nombre": "Octocrileno",
+    "inci": ["Octocrylene"],
+    "categoria": "filtro-solar",
+    "resumen": "Un filtro solar químico.",
+    "porQue": "Está permitido, pero puede dar alergia a algunas personas. Si tienes otras opciones, mejor ellas.",
+    "detalle": "UE: máximo 10 % (9 % en aerosol). El benzofenona, una impureza, debe quedar en trazas. Fotoalergia descrita, sobre todo en adultos con ketoprofeno.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "fuentes": ["ue-2022-1176"]
+  },
+  {
+    "id": "homosalato",
+    "nombre": "Homosalato",
+    "inci": ["Homosalate"],
+    "categoria": "filtro-solar",
+    "resumen": "Un filtro solar químico.",
+    "porQue": "Hay dudas sobre su seguridad: la UE solo lo permite en productos de cara y con un máximo de 7,34 %. Mejor otras opciones.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "avobenzona",
+    "nombre": "Avobenzona",
+    "inci": ["Butyl Methoxydibenzoylmethane", "Avobenzone"],
+    "categoria": "filtro-solar",
+    "resumen": "Un filtro solar químico que protege bien de UVA.",
+    "porQue": "Se degrada con el sol si no está bien estabilizada y se absorbe a la sangre. No es grave, pero hay filtros modernos mejores.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "fuentes": ["matta-jama-2020"]
+  },
+  {
+    "id": "4-mbc",
+    "nombre": "4-MBC (enzacameno)",
+    "inci": ["4-Methylbenzylidene Camphor", "Enzacamene"],
+    "categoria": "filtro-solar",
+    "resumen": "Un filtro solar químico antiguo.",
+    "porQue": "Está prohibido en la UE desde 2024 por ser un posible disruptor endocrino. Si lo ves, desconfía del producto.",
+    "nivel13a14": "evitar",
+    "nivel15a18": "evitar",
+    "prohibidoUe": true,
+    "fuentes": ["ue-2024-996"]
+  },
+  {
+    "id": "filtros-modernos",
+    "nombre": "Filtros solares modernos (Tinosorb, Uvinul A Plus, Mexoryl)",
+    "inci": [
+      "Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine",
+      "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol",
+      "Diethylamino Hydroxybenzoyl Hexyl Benzoate",
+      "Terephthalylidene Dicamphor Sulfonic Acid",
+      "Drometrizole Trisiloxane"
+    ],
+    "categoria": "filtro-solar",
+    "resumen": "Filtros químicos de última generación, de moléculas grandes y estables a la luz.",
+    "porQue": "Son una opción preferible a la oxibenzona en Europa y Asia. En EE. UU. muchos no están aprobados.",
+    "detalle": "Bemotrizinol (Tinosorb S), bisoctrizol (Tinosorb M), Uvinul A Plus, Mexoryl SX y XL.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  }
+]

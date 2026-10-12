@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AppSkinCare.Core/AppSkinCare.Core.csproj" />
+    <Project Path="src/AppSkinCare.Web/AppSkinCare.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AppSkinCare.Tests/AppSkinCare.Tests.csproj" />
+  </Folder>
+</Solution>

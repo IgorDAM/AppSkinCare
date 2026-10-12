@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Letra pequeña · Revisa los ingredientes de tu producto</title>
+<meta name="description" content="Pega la lista de ingredientes de un producto de cuidado de la piel y te explico qué hace cada uno, para personas de 13 a 18 años.">
+<meta name="color-scheme" content="light dark">
+<link rel="preload" href="/fonts/unbounded-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/site.css">
+<script src="/js/theme.js"></script>
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="contenedor cabecera-in">
+    <a class="marca" href="/"><span class="marca-sello" aria-hidden="true">Aa</span>Letra pequeña</a>
+    <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+    <nav class="menu" id="menu" aria-label="Principal">
+      <a href="/">Revisar etiqueta</a>
+      <a href="/rutina.html">Mi rutina</a>
+      <a href="/problemas.html">Problemas de piel</a>
+      <a href="/mitos.html">¿Mito o verdad?</a>
+      <a href="/ingredientes.html">Ingredientes</a>
+      <a href="/sobre.html">Sobre la web</a>
+    </nav>
+    <button class="tema-boton" type="button">Modo oscuro</button>
+  </div>
+</header>
+<main id="contenido">
+
+<div class="contenedor hero">
+  <div>
+    <h1>Lee la letra pequeña.</h1>
+    <p class="hero-lead">Pega los ingredientes de tu crema, limpiador o protector y te cuento qué hace cada uno. Sin cuentas. Sin guardar nada.</p>
+    <p class="privacidad-linea"><span aria-hidden="true">🔒</span><span>Lo que escribes se revisa y se olvida. No se guarda ni se comparte.</span></p>
+    <div class="caminos">
+      <a class="camino" href="/rutina.html"><strong>No tengo nada aún</strong><span>Te propongo una rutina corta para empezar.</span></a>
+      <a class="camino" href="/problemas.html"><strong>Tengo un problema en la piel</strong><span>Granos, manchas, sequedad, sol…</span></a>
+      <a class="camino" href="/mitos.html"><strong>¿Mito o verdad?</strong><span>Un juego rápido con cosas que seguro has oído.</span></a>
+    </div>
+  </div>
+
+  <div class="panel panel-etiqueta">
+    <form id="formulario" novalidate>
+      <div class="campo">
+        <label for="inci">Ingredientes del producto</label>
+        <textarea id="inci" name="inci" required placeholder="Está en la parte de atrás del envase, después de «Ingredients». Cópialo tal cual."></textarea>
+        <p class="ejemplos peque">
+          Prueba con un ejemplo:
+          <button type="button" class="boton-texto" data-ejemplo="limpiador">limpiador</button>
+          <button type="button" class="boton-texto" data-ejemplo="acne">crema para granos</button>
+          <button type="button" class="boton-texto" data-ejemplo="hidratante">hidratante</button>
+        </p>
+      </div>
+
+      <div class="dos-columnas campos-pareja">
+        <div class="campo"><label for="edad">Tu edad</label><select id="edad" name="edad">
+<option value="13">13 años</option>
+<option value="14">14 años</option>
+<option value="15" selected>15 años</option>
+<option value="16">16 años</option>
+<option value="17">17 años</option>
+<option value="18">18 años</option>
+</select></div>
+        <div class="campo"><label for="tipoPiel">Tu tipo de piel</label><select id="tipoPiel" name="tipoPiel">
+<option value="normal">Normal / no lo sé</option>
+<option value="seca">Seca (tira, se descama)</option>
+<option value="grasa">Grasa (brilla)</option>
+<option value="mixta">Mixta (brilla solo en la frente y la nariz)</option>
+</select></div>
+      </div>
+
+      <fieldset class="campo">
+        <legend>¿Te pasa alguna de estas cosas? <span class="peque">(opcional)</span></legend>
+        <div class="fichas">
+          <label class="ficha"><input type="checkbox" name="acne"><span>Granos</span></label>
+          <label class="ficha"><input type="checkbox" name="manchas"><span>Marcas tras los granos</span></label>
+          <label class="ficha"><input type="checkbox" name="sensible"><span>Piel sensible</span></label>
+          <label class="ficha"><input type="checkbox" name="atopia"><span>Eccema o piel atópica</span></label>
+          <label class="ficha"><input type="checkbox" name="isotretinoina"><span>Tomo isotretinoína</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset class="campo">
+        <legend>¿Cómo se usa el producto?</legend>
+        <div class="fichas"><label class="ficha"><input type="checkbox" name="seAclara"><span>Se aclara con agua (limpiador, champú, gel)</span></label></div>
+      </fieldset>
+
+      <details class="campo">
+        <summary>Comparar con mi rutina (opcional)</summary>
+        <div id="rutina-caja" class="rutina-caja">
+          <div class="campo">
+            <label for="rutina-1">Producto 1 de tu rutina</label>
+            <textarea id="rutina-1" name="rutina" rows="3" placeholder="Pega aquí sus ingredientes"></textarea>
+          </div>
+          <p><button type="button" class="boton-texto" id="anadir-producto">+ Añadir otro producto</button></p>
+        </div>
+        <p class="peque">Así puedo avisarte si juntas varios productos que irritan.</p>
+      </details>
+
+      <div class="acciones">
+        <button class="boton" type="submit" id="revisar">Revisar etiqueta</button>
+      </div>
+      <div class="error" id="error" role="alert" tabindex="-1" hidden></div>
+    </form>
+  </div>
+</div>
+<section class="resultado" id="resultado" tabindex="-1" hidden></section>
+
+</main>
+<footer class="pie">
+  <div class="contenedor">
+    <p>Información educativa para personas de 13 a 18 años. No es un diagnóstico y no sustituye a un médico/a ni a un dermatólogo/a.</p>
+    <p>No hay cuentas ni cookies, y no guardamos lo que escribes. <a href="/sobre.html">Cómo funciona y qué no sé</a> · <a href="https://github.com/IgorDAM/AppSkinCare" rel="noopener noreferrer">Código abierto</a></p>
+  </div>
+</footer>
+<script type="module" src="/js/index.js"></script>
+</body>
+</html>

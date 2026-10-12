@@ -1,0 +1,287 @@
+[
+  {
+    "id": "tensioactivos-suaves",
+    "nombre": "Limpiadores suaves (glucósidos e isetionatos)",
+    "inci": ["Decyl Glucoside", "Coco-Glucoside", "Lauryl Glucoside", "Sodium Cocoyl Isethionate"],
+    "categoria": "limpieza",
+    "resumen": "Ingredientes que limpian sin resecar tanto.",
+    "porQue": "Limpian sin subir el pH de la piel. Son la opción que recomiendan las guías para lavarse la cara y el cuerpo.",
+    "detalle": "Syndets de pH 5-6 con tensioactivos suaves (glucósidos, isetionatos): limpian sin alcalinizar el manto ácido de la piel. Evidencia de nivel B (estudios pediátricos limitados o extrapolación sólida desde adultos).",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe", "aap-teen-skincare"]
+  },
+  {
+    "id": "jabon-alcalino",
+    "nombre": "Jabón clásico (de pastilla)",
+    "inci": ["Sodium Palmate", "Sodium Palm Kernelate", "Sodium Cocoate", "Sodium Tallowate", "Sodium Olivate"],
+    "categoria": "limpieza",
+    "resumen": "Lo que hace que una pastilla de jabón sea jabón.",
+    "porQue": "El jabón de pastilla tiene un pH alto (9-10) y reseca. Para la cara es mejor un limpiador suave.",
+    "detalle": "El jabón tradicional (saponificación) eleva el pH de la piel y puede alterar la barrera cutánea. Evidencia de nivel B.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "sulfatos",
+    "nombre": "Sulfatos (SLS y parecidos)",
+    "inci": ["Sodium Lauryl Sulfate", "Sodium Laureth Sulfate", "Ammonium Lauryl Sulfate", "Ammonium Laureth Sulfate"],
+    "categoria": "limpieza",
+    "resumen": "Detergentes potentes que dan mucha espuma.",
+    "porQue": "Limpian fuerte y pueden resecar o irritar. Si se aclaran enseguida no es grave, pero mejor evitarlos en piel seca, sensible o con eccema.",
+    "detalle": "El laurilsulfato sódico (SLS) es el irritante que se usa como modelo en los estudios de dermatología. Se admite en productos que se aclaran, no en los que se dejan puestos. Evidencia de nivel B.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "reglas": [
+      { "si": ["atopia"], "nivel": "evitar", "porQue": "Con eccema (dermatitis atópica) conviene evitar los sulfatos: son un irritante de referencia." },
+      { "si": ["sinAclarado"], "nivel": "evitar", "porQue": "Los sulfatos son para productos que se aclaran, no para dejarlos puestos en la piel." }
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "cocamidopropil-betaina",
+    "nombre": "Cocamidopropil betaína",
+    "inci": ["Cocamidopropyl Betaine"],
+    "categoria": "limpieza",
+    "resumen": "Detergente suave muy usado en geles y champús.",
+    "porQue": "Es de los ingredientes que más alergia de contacto dan en las pruebas que se hacen a niños y jóvenes. A mucha gente le va bien, pero si tienes alergias, mejor buscar otro.",
+    "detalle": "Alérgeno incluido en las series de pruebas epicutáneas pediátricas. Evidencia de nivel B.",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "reglas": [
+      { "si": ["atopia"], "nivel": "evitar", "porQue": "Con eccema o alergias de contacto, mejor evitar la cocamidopropil betaína: es un alérgeno frecuente." }
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "petrolato",
+    "nombre": "Vaselina (petrolato)",
+    "inci": ["Petrolatum", "Vaseline"],
+    "categoria": "emoliente",
+    "resumen": "La crema que forma una capa para que no se escape el agua de la piel.",
+    "porQue": "Es muy segura y casi nunca da alergia. En la cara, si tienes la piel grasa, puede resultar demasiado pesada.",
+    "detalle": "Oclusivo de referencia: reduce la pérdida de agua de la piel (TEWL). Evidencia A-B. En cara puede ser comedogénico en piel grasa.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "ayuda": ["seca", "atopia"],
+    "reglas": [
+      { "si": ["grasa", "sinAclarado"], "nivel": "precaucion", "porQue": "En la cara, con la piel grasa, la vaselina puede resultar comedogénica (tapar los poros)." },
+      { "si": ["acne", "sinAclarado"], "nivel": "precaucion", "porQue": "Con granos, mejor una textura ligera en la cara: una capa gruesa de vaselina puede ser demasiado." }
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "aceite-mineral",
+    "nombre": "Aceite mineral",
+    "inci": ["Paraffinum Liquidum", "Mineral Oil"],
+    "categoria": "emoliente",
+    "resumen": "Un aceite muy refinado que sella la hidratación.",
+    "porQue": "Es seguro y no suele dar alergia. Que derive del petróleo no significa que sea tóxico: eso es un mito.",
+    "detalle": "Los aceites minerales de grado cosmético son seguros y no sensibilizantes; el mito de su «toxicidad» no tiene base. En cara puede ser comedogénico en piel grasa.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "reglas": [
+      { "si": ["grasa", "sinAclarado"], "nivel": "precaucion", "porQue": "En la cara, con la piel grasa, un aceite mineral puede resultar comedogénico (tapar los poros)." }
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "glicerina",
+    "nombre": "Glicerina",
+    "inci": ["Glycerin", "Glycerol"],
+    "categoria": "humectante",
+    "resumen": "Atrae el agua hacia la piel y la mantiene hidratada.",
+    "porQue": "Es de los hidratantes más seguros y más probados. Sin problema.",
+    "detalle": "Humectante de referencia. Evidencia de nivel B. Sin riesgos relevantes.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "ayuda": ["seca", "atopia"],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "ceramidas",
+    "nombre": "Ceramidas",
+    "inci": ["Ceramide NP", "Ceramide AP", "Ceramide EOP", "Ceramide NG", "Ceramide EOS", "Ceramide 1", "Ceramide 3", "Ceramide 6 II"],
+    "categoria": "emoliente",
+    "resumen": "Grasas que tu piel ya fabrica y que forman parte de su barrera.",
+    "porQue": "Ayudan a reponer la barrera de la piel, sobre todo si está seca o tiene eccema.",
+    "detalle": "Lípidos del estrato córneo (ceramidas, colesterol y ácidos grasos). Reponerlos es una de las bases del cuidado de la piel atópica. Evidencia de nivel B.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "ayuda": ["seca", "atopia"],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "colesterol",
+    "nombre": "Colesterol",
+    "inci": ["Cholesterol"],
+    "categoria": "emoliente",
+    "resumen": "Otra de las grasas de la barrera de la piel; suele ir junto a las ceramidas.",
+    "porQue": "Forma parte de la barrera natural de la piel. Sin problema.",
+    "detalle": "Lípido del estrato córneo que se añade en cremas reparadoras junto con ceramidas y ácidos grasos.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "acido-hialuronico",
+    "nombre": "Ácido hialurónico",
+    "inci": ["Hyaluronic Acid", "Sodium Hyaluronate", "Hydrolyzed Hyaluronic Acid", "Sodium Acetylated Hyaluronate"],
+    "categoria": "humectante",
+    "resumen": "Retiene agua en la capa superficial de la piel.",
+    "porQue": "No te hace falta, pero tampoco da problemas. Con ambiente muy seco, mejor combinarlo con una crema que selle la hidratación.",
+    "detalle": "Humectante de bajo riesgo (evidencia C). En clima seco puede «tirar» de la piel si no va con un oclusivo.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "urea",
+    "nombre": "Urea",
+    "inci": ["Urea"],
+    "categoria": "humectante",
+    "resumen": "Hidrata y, en concentraciones altas, suaviza la piel áspera.",
+    "porQue": "Se tolera bien a tu edad. Si la piel está muy irritada o con un brote de eccema, puede escocer.",
+    "detalle": "Humectante y, desde el 10 %, queratolítico. A tu edad se usan concentraciones del 5-10 % en la cara y el cuerpo y hasta el 10-20 % en zonas ásperas del cuerpo (por ejemplo la queratosis pilar). Evidencia de nivel B.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "ayuda": ["seca"],
+    "reglas": [
+      { "si": ["atopia"], "nivel": "precaucion", "porQue": "Con un brote de eccema la urea puede escocer: úsala en piel sin inflamar." }
+    ],
+    "limites": [
+      { "masDe": 20, "nivel": "precaucion", "porQue": "Más del 20 % de urea ya es de uso médico." }
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "karite",
+    "nombre": "Manteca de karité",
+    "inci": ["Butyrospermum Parkii Butter", "Shea Butter", "Butyrospermum Parkii Butter Extract"],
+    "categoria": "emoliente",
+    "resumen": "Una manteca vegetal que suaviza la piel.",
+    "porQue": "Se tolera muy bien. Sin problema.",
+    "detalle": "Emoliente vegetal bien tolerado (evidencia C). Teóricamente puede contener restos de proteínas de fruto seco, aunque no se han descrito problemas relevantes.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "ayuda": ["seca"],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "avena-coloidal",
+    "nombre": "Avena coloidal",
+    "inci": ["Avena Sativa Kernel Flour", "Colloidal Oatmeal", "Avena Sativa Kernel Meal", "Avena Sativa Kernel Extract"],
+    "categoria": "emoliente",
+    "resumen": "Avena molida muy fina que calma el picor y suaviza.",
+    "porQue": "Es una de las opciones clásicas para piel seca o con eccema. Sin problema.",
+    "detalle": "Emoliente y antipruriginoso. Hay debate sobre si, aplicada sobre piel muy dañada, podría sensibilizar; en piel sana no hay problema. Evidencia de nivel B.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "ayuda": ["seca", "atopia"],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "pantenol",
+    "nombre": "Pantenol (provitamina B5)",
+    "inci": ["Panthenol", "D-Panthenol", "Dexpanthenol"],
+    "categoria": "calmante",
+    "resumen": "Hidrata y calma la piel irritada.",
+    "porQue": "Muy bien tolerado. Sin problema.",
+    "detalle": "Calmante con riesgo bajo (evidencia C).",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "alantoina",
+    "nombre": "Alantoína",
+    "inci": ["Allantoin"],
+    "categoria": "calmante",
+    "resumen": "Suaviza y calma la piel.",
+    "porQue": "Muy bien tolerada. Sin problema.",
+    "detalle": "Calmante con riesgo bajo (evidencia C).",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "bisabolol",
+    "nombre": "Bisabolol",
+    "inci": ["Bisabolol", "Alpha-Bisabolol"],
+    "categoria": "calmante",
+    "resumen": "Un calmante que viene de la manzanilla.",
+    "porQue": "Se tolera bien. Sin problema.",
+    "detalle": "Calmante con riesgo bajo (evidencia C). Es una sustancia aislada, no el extracto de manzanilla completo, que sí puede sensibilizar.",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "aceite-oliva",
+    "nombre": "Aceite de oliva",
+    "inci": ["Olea Europaea Fruit Oil", "Olea Europaea Oil"],
+    "categoria": "aceite",
+    "resumen": "Aceite vegetal muy usado en cosmética casera.",
+    "porQue": "Sirve como emoliente en piel sana. Pero con eccema no es la mejor opción.",
+    "detalle": "Su ácido oleico puede alterar la barrera de la piel, por eso se prefiere el de girasol en piel atópica (evidencia B).",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "reglas": [
+      { "si": ["atopia"], "nivel": "precaucion", "porQue": "El ácido oleico del aceite de oliva puede alterar la barrera de una piel con eccema. Mejor aceite de girasol o una crema." },
+      { "si": ["acne", "sinAclarado"], "nivel": "precaucion", "porQue": "Con granos, los aceites densos en la cara pueden empeorarlos." }
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "aceite-girasol",
+    "nombre": "Aceite de girasol",
+    "inci": ["Helianthus Annuus Seed Oil", "Sunflower Seed Oil"],
+    "categoria": "aceite",
+    "resumen": "Aceite vegetal bien tolerado.",
+    "porQue": "Suele preferirse al aceite de oliva en piel seca o con eccema. Sin problema.",
+    "detalle": "Emoliente vegetal. Se prefiere al de oliva porque este contiene más ácido oleico, que puede alterar la barrera (evidencia B).",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "lanolina",
+    "nombre": "Lanolina",
+    "inci": ["Lanolin", "Lanolin Alcohol", "Hydrogenated Lanolin", "Lanolin Oil"],
+    "categoria": "emoliente",
+    "resumen": "Grasa de la lana de oveja, muy usada en bálsamos.",
+    "porQue": "Es un alérgeno de contacto bastante conocido. A mucha gente le va bien, pero si tienes alergias, mejor evitarla.",
+    "detalle": "Alérgeno de contacto, más frecuente en piel atópica (evidencia B).",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "reglas": [
+      { "si": ["atopia"], "nivel": "evitar", "porQue": "Con eccema, mejor evitar la lanolina: es un alérgeno de contacto frecuente." }
+    ],
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "siliconas",
+    "nombre": "Siliconas",
+    "inci": ["Dimethicone", "Cyclopentasiloxane", "Cyclohexasiloxane", "Cyclomethicone", "Dimethiconol", "Amodimethicone", "Phenyl Trimethicone", "Cetyl Dimethicone"],
+    "categoria": "emoliente",
+    "resumen": "Dan un tacto sedoso a las cremas y los maquillajes.",
+    "porQue": "No dan alergia ni son tóxicas. Que suenen a «químico» no las hace peligrosas.",
+    "detalle": "Seguras y no sensibilizantes; el mito de su toxicidad carece de base (evidencia C).",
+    "nivel13a14": "ok",
+    "nivel15a18": "ok",
+    "fuentes": ["informe"]
+  },
+  {
+    "id": "talco",
+    "nombre": "Talco",
+    "inci": ["Talc"],
+    "categoria": "polvo",
+    "resumen": "Mineral en polvo que absorbe humedad; está en polvos y maquillajes.",
+    "porQue": "Mejor no respirar el polvo, y hay debate sobre posible contaminación con amianto en algunos productos. Si puedes, elige otro.",
+    "detalle": "Riesgo de inhalación en polvos sueltos y debate sobre contaminación con amianto (evidencia C).",
+    "nivel13a14": "precaucion",
+    "nivel15a18": "precaucion",
+    "fuentes": ["informe"]
+  }
+]

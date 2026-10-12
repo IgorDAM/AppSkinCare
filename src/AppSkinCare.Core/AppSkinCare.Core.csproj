@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <EmbeddedResource Include="Data\ingredientes\*.json"
+                      LogicalName="AppSkinCare.Core.Data.ingredientes.%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>
